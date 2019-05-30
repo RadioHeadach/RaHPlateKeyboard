@@ -103,7 +103,7 @@
 				5F9DBF08229ED40D00E2777B /* Sources */,
 				5F9DBF09229ED40D00E2777B /* Frameworks */,
 				5F9DBF0A229ED40D00E2777B /* Resources */,
-				43A1127A02B627075A63ACE6 /* [CP] Copy Pods Resources */,
+				2C30B3862E8B4862D7BBC229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,7 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		43A1127A02B627075A63ACE6 /* [CP] Copy Pods Resources */ = {
+		2C30B3862E8B4862D7BBC229 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,16 +382,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TJDBPRA4F4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X75EPVXZ98;
 				INFOPLIST_FILE = RaHPlateKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CageLin.RaHPlateKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.minstone.qwe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = WileDevelopment;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -401,17 +402,18 @@
 			baseConfigurationReference = 9EC08AB9ECF671158DA2A9D3 /* Pods-RaHPlateKeyboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TJDBPRA4F4;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X75EPVXZ98;
 				INFOPLIST_FILE = RaHPlateKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CageLin.RaHPlateKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.minstone.qwe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = WileDistribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

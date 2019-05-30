@@ -1,0 +1,1 @@
+../../../../PlateKeyboard/Classes/Helper/NSString+Plate.h
