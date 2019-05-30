@@ -7,23 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		679D76F0B450BB854921C1C5F488C99F /* Pods-RaHPlateKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9314719D954C85093AC7FDC8E4C89B3 /* Pods-RaHPlateKeyboard-dummy.m */; };
+		03D47CA9CCA38C95898C06815D8412EA /* Pods-RaHPlateKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BD23D6EC7BAC6E00E11F54AA58E78 /* Pods-RaHPlateKeyboard-dummy.m */; };
+		06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE9055518A61BB0365BE800CC43E628 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 959705079EC4C1BAD38F5C127332AEE0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B88B66B97FA40C8B656D5AC1E21444 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2902EEE46E9182C3A7BC1B0BB633EC68 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E3B9E29E64A41419BADE54AEFDAF08E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 71913CAA3ADF5A93F3AD007CE250A5D2 /* MASCompositeConstraint.m */; };
+		24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27329280E2686B1C19703E669E11556E /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EA9B8A152425C736D15CBCB468BA1F /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34D6D9E7FEAF947841106F0662A2E52D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC946EC63AFD2D59F21849FC4C8CA9 /* Masonry-dummy.m */; };
+		3DDBA822016F4B4E23699020E446F0D1 /* PlateKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C58974C74C1760820A95F00D8C702D /* PlateKeyboardController.m */; };
+		591F1FA04AB069DD22008A8BABAAB829 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA8FF80925542F18C33012C627D94 /* MASViewConstraint.m */; };
+		5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFFEF88F0B8FFB971F72F39DCBED113 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60DC27F14226DDD592FA1464C2DA0C2E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 650D46CF96F9ED75F7AD20C527E225AA /* MASConstraintMaker.m */; };
+		62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 995DEC19CD171369671C427E835364DE /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B85E09BC499AD4D01B838CC78FC7EF3 /* RaHPlateKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DEFA68966C17D7A041CAB27DE0796C /* RaHPlateKeyboard-dummy.m */; };
+		7A866885AC73B1072B4D4560CC96C9F2 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F80A59C49B6EDB3381D38F41EDAD1 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FABF98A1DA76B1ACC952EA4C5050EEE5 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EF9B1AAE40D8F058097E8BB6E2DF019 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C482D6F2F9D9CE06F335CCB22542B6E /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C088F945D8CC5F69FD66D9BEE76E4D4 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B38F9A81F0583C8F5F354B50F9A8C51 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE0AF6AB9FF46D562BE5F211A064F28 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94FB266B1316708F28C38EBEAC7D9B3B /* PlateKeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A120F56DC7BA15984813129FAF7B05 /* PlateKeyboardController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B55713FF485B7A4F1E5EDB55E12DE /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F7245F368B8CD09FE3F2C36BAA2842D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C0DB400D71C34E9DC2C2459769C12 /* MASViewAttribute.m */; };
+		AB74AF1EEF7E9D9855E150F344F8CBD5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8EF7BCD45B21ED84A030CCDAA9808B /* MASLayoutConstraint.m */; };
+		B5F8B45888F4DFECC89DBA2B0307C178 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FC85DC79E9726E343C881D11686817 /* MASConstraint.m */; };
+		C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CD09DEF05932B7B8D1381014255EA47E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C48DF5D21345BD3D127256C6AD3AEFD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D2276599C0D8F74378A077765956 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C6AE2E33BFFB18E0AA9854022EB20AD0 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 117D8153696BAB70E17BD27DD9409BFE /* SVProgressAnimatedView.m */; };
+		C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = AF05CBA1D091B53C922FF2EC2F840858 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1D4442E6949DAF0EB2688A85F889E8D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137739D8EB76906AC1526CF67ACB2DF /* ViewController+MASAdditions.m */; };
+		D1F3B606C80A84B5AA7F4E729B737D47 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D650E23F8401BB52B1E1061869065 /* SVIndefiniteAnimatedView.m */; };
+		D59F2BB9843C83057A2BAAD5054B68AE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF47A6C1651826293E54D76CFD224E /* NSArray+MASAdditions.m */; };
+		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 373A77D839AD051DF9B451495F55E960 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAED263ADDF8EBE21F1EE02F9FB8FD7E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0477AAAEC1F15867F9141DC6C01846 /* View+MASAdditions.m */; };
+		EC052B168F898FE11CEBAC7DEA0D2EDB /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECDBCF8F76FAA8EB674C07355FEFA /* SVRadialGradientLayer.m */; };
+		ED66DE4CC8A27635DBBB37CD2F2B56A0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F3205613C832BFDE50E0CEB4B3BB43CC /* SVProgressHUD.m */; };
+		EE5812C5001EC9D394B0A22CBE9340AB /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E7296A8F614F7651AFB49B906513BB /* SVProgressHUD-dummy.m */; };
+		F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8689860F40161E0F889177CB16013E1D /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3DCD32FAFD927C5DBB04F002F274E27 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D349164015EBF8A41FC778FEBAC2482 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		090DDEA6EE1DC86E177F46C83DC0DCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B854683690DC218F2B6E2FFDB0D27CDC;
+			remoteInfo = Masonry;
+		};
+		574F9ADFD27320FCA2A70DF881D2ED59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6806B4FDDA24E8BB4FF6DF9E49F28672;
+			remoteInfo = RaHPlateKeyboard;
+		};
+		88189ABB387B1ED322C6F29EE87F234C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED32B3C74326675D87ABC31D4F67F895;
+			remoteInfo = SVProgressHUD;
+		};
+		CDBA33844993C8A0B49DE80D2B605F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED32B3C74326675D87ABC31D4F67F895;
+			remoteInfo = SVProgressHUD;
+		};
+		E245BEBD060F0D8F91D9A415AC239D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B854683690DC218F2B6E2FFDB0D27CDC;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		46934A0E890C8E02CBBBB463E22B8837 /* Pods-RaHPlateKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaHPlateKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
-		4907251CDB55FFA85461E9AF9468D692 /* Pods-RaHPlateKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaHPlateKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64AE41AAFBD9BE5619E0F9E2CB1D22B0 /* libPods-RaHPlateKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RaHPlateKeyboard.a"; path = "libPods-RaHPlateKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C3D140B19C70E5B67DAA28656D35522 /* Pods-RaHPlateKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaHPlateKeyboard.release.xcconfig"; sourceTree = "<group>"; };
-		7154A0F2CFB8BF35B2BC324F728C92E9 /* Pods-RaHPlateKeyboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaHPlateKeyboard-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9314719D954C85093AC7FDC8E4C89B3 /* Pods-RaHPlateKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RaHPlateKeyboard-dummy.m"; sourceTree = "<group>"; };
-		B3657C5DDE7B5571FD6C67460895AEA8 /* Pods-RaHPlateKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaHPlateKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED351C0776239EF3FE786050234175A3 /* Pods-RaHPlateKeyboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaHPlateKeyboard-resources.sh"; sourceTree = "<group>"; };
+		006AB218C5549FB9B5ABBEC5EB9DD15C /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0137739D8EB76906AC1526CF67ACB2DF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		01E3D2128BDE8DDFD50D64AB48EF4C21 /* plate-keyboard_resource_keyboard_pop_right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop_right@3x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop_right@3x.png"; sourceTree = "<group>"; };
+		031B7EAE1C8F74AD43E88EAF0A344D32 /* RaHPlateKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaHPlateKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		07394835C05C25F0E84ACFB1650042CF /* plate-keyboard_resource_keyboard_pop_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop_left@2x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop_left@2x.png"; sourceTree = "<group>"; };
+		0C088F945D8CC5F69FD66D9BEE76E4D4 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		0F2C0DB400D71C34E9DC2C2459769C12 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		0F695694591FB7D7F9AF701029B93F6C /* RaHPlateKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RaHPlateKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		117D8153696BAB70E17BD27DD9409BFE /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		11C7D08E842F36AB627CAB21437C2D31 /* plate-keyboard_resource_keyboard_pop_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop_right@2x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop_right@2x.png"; sourceTree = "<group>"; };
+		13365954EC18262E32B41DF460378566 /* plate-keyboard_resource_keyboard_pop_left@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop_left@3x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop_left@3x.png"; sourceTree = "<group>"; };
+		1585FFB27664DF45262E3A8A7E82D465 /* plate-keyboard_resource_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_delete@3x.png"; path = "Assets/plate-keyboard_resource_delete@3x.png"; sourceTree = "<group>"; };
+		184ECDBCF8F76FAA8EB674C07355FEFA /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		23EA9B8A152425C736D15CBCB468BA1F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		27329280E2686B1C19703E669E11556E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2902EEE46E9182C3A7BC1B0BB633EC68 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		295BD23D6EC7BAC6E00E11F54AA58E78 /* Pods-RaHPlateKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RaHPlateKeyboard-dummy.m"; sourceTree = "<group>"; };
+		2A606A5C837F2C77ABB6B66F7DCC194F /* libRaHPlateKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRaHPlateKeyboard.a; path = libRaHPlateKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		373A77D839AD051DF9B451495F55E960 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		3D60707C0E76F73591AD73AD920F7355 /* libPods-RaHPlateKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RaHPlateKeyboard.a"; path = "libPods-RaHPlateKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0477AAAEC1F15867F9141DC6C01846 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		3F1B1C3EB5C7C17BA997593C3E4F3BAA /* Pods-RaHPlateKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaHPlateKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F3CDE12B4C6E99B6F6CF2D2EDAA3188 /* plate-keyboard_resource_shift_h.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_h.png"; path = "Assets/plate-keyboard_resource_shift_h.png"; sourceTree = "<group>"; };
+		418F21BA12F804224BB4DF705BC4065D /* plate-keyboard_resource_shift_h@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_h@2x.png"; path = "Assets/plate-keyboard_resource_shift_h@2x.png"; sourceTree = "<group>"; };
+		48FC85DC79E9726E343C881D11686817 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		4DB89A2BB39B895833F7132C88878683 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCF47A6C1651826293E54D76CFD224E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		4E6938736D7D722662619DBA2C63D29B /* plate-keyboard_resource_shift_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_n@3x.png"; path = "Assets/plate-keyboard_resource_shift_n@3x.png"; sourceTree = "<group>"; };
+		4EF2D2276599C0D8F74378A077765956 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		4FA11D021143A6B973877956230ED5EB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5D8E0DC9BE83370F0A1B5EB6F8C2E741 /* plate-keyboard.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "plate-keyboard.json"; path = "Assets/plate-keyboard.json"; sourceTree = "<group>"; };
+		5E9166327A57E837814DE38332B4BF1E /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		650D46CF96F9ED75F7AD20C527E225AA /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		664B8CCF408B15351EE6E60FAD6A164E /* plate-keyboard_resource_keyboard_pop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop@3x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop@3x.png"; sourceTree = "<group>"; };
+		685EE95654A9A6B935ED06DC0B574D2B /* Pods-RaHPlateKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaHPlateKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		68BD3F76C6C718F0E4EC69CEFA6E8DB1 /* plate-keyboard_resource_round_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_round_background@2x.png"; path = "Assets/plate-keyboard_resource_round_background@2x.png"; sourceTree = "<group>"; };
+		6B8EF7BCD45B21ED84A030CCDAA9808B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6BE9055518A61BB0365BE800CC43E628 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		6EFC946EC63AFD2D59F21849FC4C8CA9 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		6F63A6F97174F42BC8EC8EE09D536F05 /* plate-keyboard_resource_round_background@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_round_background@3x.png"; path = "Assets/plate-keyboard_resource_round_background@3x.png"; sourceTree = "<group>"; };
+		71913CAA3ADF5A93F3AD007CE250A5D2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		71C58974C74C1760820A95F00D8C702D /* PlateKeyboardController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PlateKeyboardController.m; path = Classes/PlateKeyboardController.m; sourceTree = "<group>"; };
+		728765B8656B7B083A57CA825843A003 /* RaHPlateKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaHPlateKeyboard.xcconfig; sourceTree = "<group>"; };
+		75B90F96FF06DDA3DAF9FEDA26E8D7E0 /* Pods-RaHPlateKeyboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaHPlateKeyboard-resources.sh"; sourceTree = "<group>"; };
+		7B3070651F898597134BC65AD15973BA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8689860F40161E0F889177CB16013E1D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8AFFEF88F0B8FFB971F72F39DCBED113 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8C482D6F2F9D9CE06F335CCB22542B6E /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		8D349164015EBF8A41FC778FEBAC2482 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		90F1F81BD2B4EAC57462CA71D15694D2 /* plate-keyboard_resource_delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_delete.png"; path = "Assets/plate-keyboard_resource_delete.png"; sourceTree = "<group>"; };
+		959705079EC4C1BAD38F5C127332AEE0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		95DEFA68966C17D7A041CAB27DE0796C /* RaHPlateKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaHPlateKeyboard-dummy.m"; sourceTree = "<group>"; };
+		995DEC19CD171369671C427E835364DE /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		99C7EF25D5F8CCF2C373F75010D38611 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		9BE0AF6AB9FF46D562BE5F211A064F28 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C346D3A09FF16866C238518715D5D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A2A120F56DC7BA15984813129FAF7B05 /* PlateKeyboardController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PlateKeyboardController.h; path = Classes/PlateKeyboardController.h; sourceTree = "<group>"; };
+		AB3F80A59C49B6EDB3381D38F41EDAD1 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		AF05CBA1D091B53C922FF2EC2F840858 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		AF53C47DE22CAB723F59C492F6DBD3CF /* plate-keyboard_resource_keyboard_pop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_keyboard_pop@2x.png"; path = "Assets/plate-keyboard_resource_keyboard_pop@2x.png"; sourceTree = "<group>"; };
+		BE3C56ABAF396BA43C518A9737052F62 /* plate-keyboard_resource_round_background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_round_background.png"; path = "Assets/plate-keyboard_resource_round_background.png"; sourceTree = "<group>"; };
+		C322C0BBC8047272722688AF3A4FB659 /* Pods-RaHPlateKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaHPlateKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5D7B379E6E4E00F6CE3A5518342DBAB /* plate-keyboard_resource_shift_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_n@2x.png"; path = "Assets/plate-keyboard_resource_shift_n@2x.png"; sourceTree = "<group>"; };
+		CD09DEF05932B7B8D1381014255EA47E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D002FE51049EE646A7B082E226224C68 /* plate-keyboard_resource_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_delete@2x.png"; path = "Assets/plate-keyboard_resource_delete@2x.png"; sourceTree = "<group>"; };
+		D5B88B66B97FA40C8B656D5AC1E21444 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D9211591B7162FDCD303C2BAF5E65AC5 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		DFD603F99549A87794CF0B71D91E4185 /* Pods-RaHPlateKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaHPlateKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		E29EA8FF80925542F18C33012C627D94 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		E4E7296A8F614F7651AFB49B906513BB /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E991F501E66D18BAD6D0BD3BADEA8090 /* plate-keyboard_resource_shift_n.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_n.png"; path = "Assets/plate-keyboard_resource_shift_n.png"; sourceTree = "<group>"; };
+		EC8D650E23F8401BB52B1E1061869065 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F3205613C832BFDE50E0CEB4B3BB43CC /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		F77970271FE1982AAD016F3A11AC333A /* plate-keyboard_resource_shift_h@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "plate-keyboard_resource_shift_h@3x.png"; path = "Assets/plate-keyboard_resource_shift_h@3x.png"; sourceTree = "<group>"; };
+		FA6B55713FF485B7A4F1E5EDB55E12DE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FABF98A1DA76B1ACC952EA4C5050EEE5 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E660D8D60C043D577D65FFC9AFA1335 /* Frameworks */ = {
+		13644334B4C004E99B26BAB4C5D597CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17798E326CF3C171F9E2422A79E162BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0A8E3741C526A5E692BC509794E501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CB54ABE7EDCCE0B91648E74E474156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,157 +198,457 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		0A5C87E01DC73ADAD9439CBE21FC765C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				959705079EC4C1BAD38F5C127332AEE0 /* MASCompositeConstraint.h */,
+				71913CAA3ADF5A93F3AD007CE250A5D2 /* MASCompositeConstraint.m */,
+				0C088F945D8CC5F69FD66D9BEE76E4D4 /* MASConstraint.h */,
+				48FC85DC79E9726E343C881D11686817 /* MASConstraint.m */,
+				CD09DEF05932B7B8D1381014255EA47E /* MASConstraint+Private.h */,
+				6BE9055518A61BB0365BE800CC43E628 /* MASConstraintMaker.h */,
+				650D46CF96F9ED75F7AD20C527E225AA /* MASConstraintMaker.m */,
+				8689860F40161E0F889177CB16013E1D /* MASLayoutConstraint.h */,
+				6B8EF7BCD45B21ED84A030CCDAA9808B /* MASLayoutConstraint.m */,
+				AF05CBA1D091B53C922FF2EC2F840858 /* Masonry.h */,
+				373A77D839AD051DF9B451495F55E960 /* MASUtilities.h */,
+				995DEC19CD171369671C427E835364DE /* MASViewAttribute.h */,
+				0F2C0DB400D71C34E9DC2C2459769C12 /* MASViewAttribute.m */,
+				2902EEE46E9182C3A7BC1B0BB633EC68 /* MASViewConstraint.h */,
+				E29EA8FF80925542F18C33012C627D94 /* MASViewConstraint.m */,
+				23EA9B8A152425C736D15CBCB468BA1F /* NSArray+MASAdditions.h */,
+				4DCF47A6C1651826293E54D76CFD224E /* NSArray+MASAdditions.m */,
+				FA6B55713FF485B7A4F1E5EDB55E12DE /* NSArray+MASShorthandAdditions.h */,
+				D5B88B66B97FA40C8B656D5AC1E21444 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				4EF2D2276599C0D8F74378A077765956 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FABF98A1DA76B1ACC952EA4C5050EEE5 /* View+MASAdditions.h */,
+				3E0477AAAEC1F15867F9141DC6C01846 /* View+MASAdditions.m */,
+				8AFFEF88F0B8FFB971F72F39DCBED113 /* View+MASShorthandAdditions.h */,
+				27329280E2686B1C19703E669E11556E /* ViewController+MASAdditions.h */,
+				0137739D8EB76906AC1526CF67ACB2DF /* ViewController+MASAdditions.m */,
+				D16A917FCF8DB42CE1A113F1BE4E2748 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1D0DD26834721C02ABC8CA99201F1733 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E0DC9BE83370F0A1B5EB6F8C2E741 /* plate-keyboard.json */,
+				90F1F81BD2B4EAC57462CA71D15694D2 /* plate-keyboard_resource_delete.png */,
+				D002FE51049EE646A7B082E226224C68 /* plate-keyboard_resource_delete@2x.png */,
+				1585FFB27664DF45262E3A8A7E82D465 /* plate-keyboard_resource_delete@3x.png */,
+				AF53C47DE22CAB723F59C492F6DBD3CF /* plate-keyboard_resource_keyboard_pop@2x.png */,
+				664B8CCF408B15351EE6E60FAD6A164E /* plate-keyboard_resource_keyboard_pop@3x.png */,
+				07394835C05C25F0E84ACFB1650042CF /* plate-keyboard_resource_keyboard_pop_left@2x.png */,
+				13365954EC18262E32B41DF460378566 /* plate-keyboard_resource_keyboard_pop_left@3x.png */,
+				11C7D08E842F36AB627CAB21437C2D31 /* plate-keyboard_resource_keyboard_pop_right@2x.png */,
+				01E3D2128BDE8DDFD50D64AB48EF4C21 /* plate-keyboard_resource_keyboard_pop_right@3x.png */,
+				BE3C56ABAF396BA43C518A9737052F62 /* plate-keyboard_resource_round_background.png */,
+				68BD3F76C6C718F0E4EC69CEFA6E8DB1 /* plate-keyboard_resource_round_background@2x.png */,
+				6F63A6F97174F42BC8EC8EE09D536F05 /* plate-keyboard_resource_round_background@3x.png */,
+				3F3CDE12B4C6E99B6F6CF2D2EDAA3188 /* plate-keyboard_resource_shift_h.png */,
+				418F21BA12F804224BB4DF705BC4065D /* plate-keyboard_resource_shift_h@2x.png */,
+				F77970271FE1982AAD016F3A11AC333A /* plate-keyboard_resource_shift_h@3x.png */,
+				E991F501E66D18BAD6D0BD3BADEA8090 /* plate-keyboard_resource_shift_n.png */,
+				C5D7B379E6E4E00F6CE3A5518342DBAB /* plate-keyboard_resource_shift_n@2x.png */,
+				4E6938736D7D722662619DBA2C63D29B /* plate-keyboard_resource_shift_n@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		317977F4D9E45C9773579D662099A98E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9BE0AF6AB9FF46D562BE5F211A064F28 /* SVIndefiniteAnimatedView.h */,
+				EC8D650E23F8401BB52B1E1061869065 /* SVIndefiniteAnimatedView.m */,
+				8C482D6F2F9D9CE06F335CCB22542B6E /* SVProgressAnimatedView.h */,
+				117D8153696BAB70E17BD27DD9409BFE /* SVProgressAnimatedView.m */,
+				8D349164015EBF8A41FC778FEBAC2482 /* SVProgressHUD.h */,
+				F3205613C832BFDE50E0CEB4B3BB43CC /* SVProgressHUD.m */,
+				AB3F80A59C49B6EDB3381D38F41EDAD1 /* SVRadialGradientLayer.h */,
+				184ECDBCF8F76FAA8EB674C07355FEFA /* SVRadialGradientLayer.m */,
+				9C08D3374970938EF180B7B928D158EA /* Resources */,
+				4A8B1C43DE262AB521777BBD804052E9 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		4265173FADC73834315B1CEE20D0EFAC /* Pods-RaHPlateKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C322C0BBC8047272722688AF3A4FB659 /* Pods-RaHPlateKeyboard-acknowledgements.markdown */,
+				3F1B1C3EB5C7C17BA997593C3E4F3BAA /* Pods-RaHPlateKeyboard-acknowledgements.plist */,
+				295BD23D6EC7BAC6E00E11F54AA58E78 /* Pods-RaHPlateKeyboard-dummy.m */,
+				75B90F96FF06DDA3DAF9FEDA26E8D7E0 /* Pods-RaHPlateKeyboard-resources.sh */,
+				DFD603F99549A87794CF0B71D91E4185 /* Pods-RaHPlateKeyboard.debug.xcconfig */,
+				685EE95654A9A6B935ED06DC0B574D2B /* Pods-RaHPlateKeyboard.release.xcconfig */,
+			);
+			name = "Pods-RaHPlateKeyboard";
+			path = "Target Support Files/Pods-RaHPlateKeyboard";
+			sourceTree = "<group>";
+		};
+		431343FF3DE366511B1678BE2C644C73 /* RaHPlateKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A2A120F56DC7BA15984813129FAF7B05 /* PlateKeyboardController.h */,
+				71C58974C74C1760820A95F00D8C702D /* PlateKeyboardController.m */,
+				5B87CEE3C29DBF3E30ED2FBCB1000711 /* Pod */,
+				1D0DD26834721C02ABC8CA99201F1733 /* Resources */,
+				C58C6238438F482E24FE02945984D9B6 /* Support Files */,
+			);
+			name = RaHPlateKeyboard;
+			path = /Users/linkaiqi/RaHPlateKeyboard/RaHPlateKeyboard/PlateKeyboard;
+			sourceTree = "<absolute>";
+		};
+		4A8B1C43DE262AB521777BBD804052E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				006AB218C5549FB9B5ABBEC5EB9DD15C /* SVProgressHUD.xcconfig */,
+				E4E7296A8F614F7651AFB49B906513BB /* SVProgressHUD-dummy.m */,
+				4FA11D021143A6B973877956230ED5EB /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		5B87CEE3C29DBF3E30ED2FBCB1000711 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A1C346D3A09FF16866C238518715D5D4 /* LICENSE */,
+				0F695694591FB7D7F9AF701029B93F6C /* RaHPlateKeyboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		74E58823BB800D46869DA563EF988E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C87E01DC73ADAD9439CBE21FC765C /* Masonry */,
+				317977F4D9E45C9773579D662099A98E /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8568A4DD5A30FED9B87FAC3FDE50B762 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4265173FADC73834315B1CEE20D0EFAC /* Pods-RaHPlateKeyboard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C08D3374970938EF180B7B928D158EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9211591B7162FDCD303C2BAF5E65AC5 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C58C6238438F482E24FE02945984D9B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				728765B8656B7B083A57CA825843A003 /* RaHPlateKeyboard.xcconfig */,
+				95DEFA68966C17D7A041CAB27DE0796C /* RaHPlateKeyboard-dummy.m */,
+				031B7EAE1C8F74AD43E88EAF0A344D32 /* RaHPlateKeyboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/RaHPlateKeyboard";
+			sourceTree = "<group>";
+		};
+		C5CB147F7B244C2DE3016A03CBC03D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B3070651F898597134BC65AD15973BA /* libMasonry.a */,
+				3D60707C0E76F73591AD73AD920F7355 /* libPods-RaHPlateKeyboard.a */,
+				2A606A5C837F2C77ABB6B66F7DCC194F /* libRaHPlateKeyboard.a */,
+				4DB89A2BB39B895833F7132C88878683 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CF55960A7F700EB6B0A74FF0F9AAA1F4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				74E58823BB800D46869DA563EF988E61 /* Pods */,
+				C5CB147F7B244C2DE3016A03CBC03D0D /* Products */,
+				8568A4DD5A30FED9B87FAC3FDE50B762 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF55960A7F700EB6B0A74FF0F9AAA1F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431343FF3DE366511B1678BE2C644C73 /* RaHPlateKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D16A917FCF8DB42CE1A113F1BE4E2748 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C7EF25D5F8CCF2C373F75010D38611 /* Masonry.xcconfig */,
+				6EFC946EC63AFD2D59F21849FC4C8CA9 /* Masonry-dummy.m */,
+				5E9166327A57E837814DE38332B4BF1E /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		72DD65AAFFF3BD10ADDDECD4E031C6F6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D16BA3C2027C32B3C774891F7A1E99A6 /* Pods-RaHPlateKeyboard */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				C58C9587C9BD89B5F04A4B4B253AA77A /* Products */,
-				72DD65AAFFF3BD10ADDDECD4E031C6F6 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		C58C9587C9BD89B5F04A4B4B253AA77A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				64AE41AAFBD9BE5619E0F9E2CB1D22B0 /* libPods-RaHPlateKeyboard.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D16BA3C2027C32B3C774891F7A1E99A6 /* Pods-RaHPlateKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				4907251CDB55FFA85461E9AF9468D692 /* Pods-RaHPlateKeyboard-acknowledgements.markdown */,
-				B3657C5DDE7B5571FD6C67460895AEA8 /* Pods-RaHPlateKeyboard-acknowledgements.plist */,
-				A9314719D954C85093AC7FDC8E4C89B3 /* Pods-RaHPlateKeyboard-dummy.m */,
-				7154A0F2CFB8BF35B2BC324F728C92E9 /* Pods-RaHPlateKeyboard-frameworks.sh */,
-				ED351C0776239EF3FE786050234175A3 /* Pods-RaHPlateKeyboard-resources.sh */,
-				46934A0E890C8E02CBBBB463E22B8837 /* Pods-RaHPlateKeyboard.debug.xcconfig */,
-				6C3D140B19C70E5B67DAA28656D35522 /* Pods-RaHPlateKeyboard.release.xcconfig */,
-			);
-			name = "Pods-RaHPlateKeyboard";
-			path = "Target Support Files/Pods-RaHPlateKeyboard";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1528FCF1465A46725221044FB63F2EB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532107D22E7C19EF1752A79B79451230 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FB266B1316708F28C38EBEAC7D9B3B /* PlateKeyboardController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66168E32964B701C0E417C173B0C4196 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B38F9A81F0583C8F5F354B50F9A8C51 /* SVIndefiniteAnimatedView.h in Headers */,
+				7EF9B1AAE40D8F058097E8BB6E2DF019 /* SVProgressAnimatedView.h in Headers */,
+				F3DCD32FAFD927C5DBB04F002F274E27 /* SVProgressHUD.h in Headers */,
+				7A866885AC73B1072B4D4560CC96C9F2 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C165B6F096A64CC321493EA8D6188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */,
+				C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */,
+				834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */,
+				06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */,
+				F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */,
+				C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */,
+				E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */,
+				62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */,
+				1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */,
+				29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */,
+				96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */,
+				147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */,
+				5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */,
+				24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A52D39F69600611B28FCC659F5A8B4CD /* Pods-RaHPlateKeyboard */ = {
+		6806B4FDDA24E8BB4FF6DF9E49F28672 /* RaHPlateKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29EFC12039645B4B5FB100D23CCD18CC /* Build configuration list for PBXNativeTarget "Pods-RaHPlateKeyboard" */;
+			buildConfigurationList = A2DE001FFFAFCD54866A0AFDD98DA8EC /* Build configuration list for PBXNativeTarget "RaHPlateKeyboard" */;
 			buildPhases = (
-				5083EDD263E9752335405AEA95815505 /* Sources */,
-				7E660D8D60C043D577D65FFC9AFA1335 /* Frameworks */,
+				532107D22E7C19EF1752A79B79451230 /* Headers */,
+				FA22B51352DF452792618BFDEDAC3516 /* Sources */,
+				13644334B4C004E99B26BAB4C5D597CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FEA195B96BDC67B2EEDDDE6EC3F820 /* PBXTargetDependency */,
+				80BAE3885E2A6115F68B11B16272F584 /* PBXTargetDependency */,
+			);
+			name = RaHPlateKeyboard;
+			productName = RaHPlateKeyboard;
+			productReference = 2A606A5C837F2C77ABB6B66F7DCC194F /* libRaHPlateKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF625691042B208B0F87D7C89735A2BB /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				864C165B6F096A64CC321493EA8D6188 /* Headers */,
+				20B59DF52315F7BEE4C186DFC2709780 /* Sources */,
+				2F0A8E3741C526A5E692BC509794E501 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 7B3070651F898597134BC65AD15973BA /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C23B28BD25F91183D058488B9BEA57CB /* Pods-RaHPlateKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11FFB0072D6E5F477BDA32AD67BDE0B /* Build configuration list for PBXNativeTarget "Pods-RaHPlateKeyboard" */;
+			buildPhases = (
+				1528FCF1465A46725221044FB63F2EB3 /* Headers */,
+				1E0899D8917A1A4B8B7C08F7E981A4FC /* Sources */,
+				17798E326CF3C171F9E2422A79E162BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A182DF338135D8FA80D9D112D89D91 /* PBXTargetDependency */,
+				56B57F318039E17F9656A2DE50180C34 /* PBXTargetDependency */,
+				26E0B80B5496881435618E67D568CB08 /* PBXTargetDependency */,
+			);
 			name = "Pods-RaHPlateKeyboard";
 			productName = "Pods-RaHPlateKeyboard";
-			productReference = 64AE41AAFBD9BE5619E0F9E2CB1D22B0 /* libPods-RaHPlateKeyboard.a */;
+			productReference = 3D60707C0E76F73591AD73AD920F7355 /* libPods-RaHPlateKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED32B3C74326675D87ABC31D4F67F895 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDCCBE4B70A63DFCBF226EF2E3475B5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				66168E32964B701C0E417C173B0C4196 /* Headers */,
+				8B88F26EC8D64EE67DEEC368D20B032C /* Sources */,
+				97CB54ABE7EDCCE0B91648E74E474156 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 4DB89A2BB39B895833F7132C88878683 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C58C9587C9BD89B5F04A4B4B253AA77A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5CB147F7B244C2DE3016A03CBC03D0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A52D39F69600611B28FCC659F5A8B4CD /* Pods-RaHPlateKeyboard */,
+				B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */,
+				C23B28BD25F91183D058488B9BEA57CB /* Pods-RaHPlateKeyboard */,
+				6806B4FDDA24E8BB4FF6DF9E49F28672 /* RaHPlateKeyboard */,
+				ED32B3C74326675D87ABC31D4F67F895 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5083EDD263E9752335405AEA95815505 /* Sources */ = {
+		1E0899D8917A1A4B8B7C08F7E981A4FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679D76F0B450BB854921C1C5F488C99F /* Pods-RaHPlateKeyboard-dummy.m in Sources */,
+				03D47CA9CCA38C95898C06815D8412EA /* Pods-RaHPlateKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B59DF52315F7BEE4C186DFC2709780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B9E29E64A41419BADE54AEFDAF08E /* MASCompositeConstraint.m in Sources */,
+				B5F8B45888F4DFECC89DBA2B0307C178 /* MASConstraint.m in Sources */,
+				60DC27F14226DDD592FA1464C2DA0C2E /* MASConstraintMaker.m in Sources */,
+				AB74AF1EEF7E9D9855E150F344F8CBD5 /* MASLayoutConstraint.m in Sources */,
+				34D6D9E7FEAF947841106F0662A2E52D /* Masonry-dummy.m in Sources */,
+				9F7245F368B8CD09FE3F2C36BAA2842D /* MASViewAttribute.m in Sources */,
+				591F1FA04AB069DD22008A8BABAAB829 /* MASViewConstraint.m in Sources */,
+				D59F2BB9843C83057A2BAAD5054B68AE /* NSArray+MASAdditions.m in Sources */,
+				C48DF5D21345BD3D127256C6AD3AEFD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EAED263ADDF8EBE21F1EE02F9FB8FD7E /* View+MASAdditions.m in Sources */,
+				D1D4442E6949DAF0EB2688A85F889E8D /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B88F26EC8D64EE67DEEC368D20B032C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F3B606C80A84B5AA7F4E729B737D47 /* SVIndefiniteAnimatedView.m in Sources */,
+				C6AE2E33BFFB18E0AA9854022EB20AD0 /* SVProgressAnimatedView.m in Sources */,
+				EE5812C5001EC9D394B0A22CBE9340AB /* SVProgressHUD-dummy.m in Sources */,
+				ED66DE4CC8A27635DBBB37CD2F2B56A0 /* SVProgressHUD.m in Sources */,
+				EC052B168F898FE11CEBAC7DEA0D2EDB /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA22B51352DF452792618BFDEDAC3516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDBA822016F4B4E23699020E446F0D1 /* PlateKeyboardController.m in Sources */,
+				6B85E09BC499AD4D01B838CC78FC7EF3 /* RaHPlateKeyboard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		07FEA195B96BDC67B2EEDDDE6EC3F820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */;
+			targetProxy = 090DDEA6EE1DC86E177F46C83DC0DCE6 /* PBXContainerItemProxy */;
+		};
+		26E0B80B5496881435618E67D568CB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = ED32B3C74326675D87ABC31D4F67F895 /* SVProgressHUD */;
+			targetProxy = 88189ABB387B1ED322C6F29EE87F234C /* PBXContainerItemProxy */;
+		};
+		56B57F318039E17F9656A2DE50180C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaHPlateKeyboard;
+			target = 6806B4FDDA24E8BB4FF6DF9E49F28672 /* RaHPlateKeyboard */;
+			targetProxy = 574F9ADFD27320FCA2A70DF881D2ED59 /* PBXContainerItemProxy */;
+		};
+		62A182DF338135D8FA80D9D112D89D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */;
+			targetProxy = E245BEBD060F0D8F91D9A415AC239D90 /* PBXContainerItemProxy */;
+		};
+		80BAE3885E2A6115F68B11B16272F584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = ED32B3C74326675D87ABC31D4F67F895 /* SVProgressHUD */;
+			targetProxy = CDBA33844993C8A0B49DE80D2B605F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		55E4D9C70A7180EEF8716A81D983FB39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46934A0E890C8E02CBBBB463E22B8837 /* Pods-RaHPlateKeyboard.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		71E95682C27F840F6638365C33FDE16F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C3D140B19C70E5B67DAA28656D35522 /* Pods-RaHPlateKeyboard.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FA39F93BCC98288C75B07575327D1A76 /* Release */ = {
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,66 +680,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FEB52B20EEB50135A85E1727D4046F94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -295,37 +700,313 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B3E8AE1761538147482890AF15D9F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728765B8656B7B083A57CA825843A003 /* RaHPlateKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RaHPlateKeyboard/RaHPlateKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RaHPlateKeyboard;
+				PRODUCT_NAME = RaHPlateKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C3DCCF6B5839F21EB4AC097B12672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C7EF25D5F8CCF2C373F75010D38611 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A864CC45E3479BD5ACFE61A533AFE5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685EE95654A9A6B935ED06DC0B574D2B /* Pods-RaHPlateKeyboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE99A309D0DE223EA2084F90016C66EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006AB218C5549FB9B5ABBEC5EB9DD15C /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF334CB729005ACFFA9F806063A35EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD603F99549A87794CF0B71D91E4185 /* Pods-RaHPlateKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C714B6A7FEE872DD517E3181CEE6AC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006AB218C5549FB9B5ABBEC5EB9DD15C /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FA48F3F1317AC514677C39CA509357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728765B8656B7B083A57CA825843A003 /* RaHPlateKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RaHPlateKeyboard/RaHPlateKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RaHPlateKeyboard;
+				PRODUCT_NAME = RaHPlateKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A2ADF8E19405B820AE14A234B07C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C7EF25D5F8CCF2C373F75010D38611 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29EFC12039645B4B5FB100D23CCD18CC /* Build configuration list for PBXNativeTarget "Pods-RaHPlateKeyboard" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E4D9C70A7180EEF8716A81D983FB39 /* Debug */,
-				71E95682C27F840F6638365C33FDE16F /* Release */,
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		A2DE001FFFAFCD54866A0AFDD98DA8EC /* Build configuration list for PBXNativeTarget "RaHPlateKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEB52B20EEB50135A85E1727D4046F94 /* Debug */,
-				FA39F93BCC98288C75B07575327D1A76 /* Release */,
+				6B3E8AE1761538147482890AF15D9F0C /* Debug */,
+				C9FA48F3F1317AC514677C39CA509357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDCCBE4B70A63DFCBF226EF2E3475B5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE99A309D0DE223EA2084F90016C66EF /* Debug */,
+				C714B6A7FEE872DD517E3181CEE6AC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11FFB0072D6E5F477BDA32AD67BDE0B /* Build configuration list for PBXNativeTarget "Pods-RaHPlateKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF334CB729005ACFFA9F806063A35EE9 /* Debug */,
+				A864CC45E3479BD5ACFE61A533AFE5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF625691042B208B0F87D7C89735A2BB /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A2ADF8E19405B820AE14A234B07C6F /* Debug */,
+				9C3DCCF6B5839F21EB4AC097B12672C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

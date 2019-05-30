@@ -103,6 +103,7 @@
 				5F9DBF08229ED40D00E2777B /* Sources */,
 				5F9DBF09229ED40D00E2777B /* Frameworks */,
 				5F9DBF0A229ED40D00E2777B /* Resources */,
+				43A1127A02B627075A63ACE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +159,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		43A1127A02B627075A63ACE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RaHPlateKeyboard/Pods-RaHPlateKeyboard-resources.sh",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard.json",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_delete.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_delete@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_delete@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop_left@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop_left@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop_right@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_keyboard_pop_right@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_round_background.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_round_background@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_round_background@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_h.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_h@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_h@3x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_n.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_n@2x.png",
+				"${PODS_ROOT}/../PlateKeyboard/Assets/plate-keyboard_resource_shift_n@3x.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_delete.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_delete@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_delete@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop_left@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop_left@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop_right@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_keyboard_pop_right@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_round_background.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_round_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_round_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_h.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_h@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_h@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_n.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_n@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/plate-keyboard_resource_shift_n@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RaHPlateKeyboard/Pods-RaHPlateKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9EE18EA83E6DFEA42542EBE7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

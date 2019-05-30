@@ -1,0 +1,32 @@
+{
+  "name": "RaHPlateKeyboard",
+  "version": "1.0.1",
+  "summary": "5",
+  "homepage": "http://git.minstone.com.cn",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CageLin": "linkq@minstone.com.cn"
+  },
+  "source": {
+    "git": "http://git.minstone.com.cn/mobile/modu/ios-components.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Classes/**/*",
+  "resources": "Assets/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  },
+  "static_framework": true
+}

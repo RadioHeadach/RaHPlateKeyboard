@@ -1,3 +1,27 @@
-PODFILE CHECKSUM: f1e2b68840880d32b7321a7ac2e4b10a01869c6b
+PODS:
+  - Masonry (1.1.0)
+  - RaHPlateKeyboard (1.0.1):
+    - Masonry
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
 
-COCOAPODS: 1.5.3
+DEPENDENCIES:
+  - RaHPlateKeyboard (from `/Users/linkaiqi/RaHPlateKeyboard/RaHPlateKeyboard/PlateKeyboard`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  RaHPlateKeyboard:
+    :path: "/Users/linkaiqi/RaHPlateKeyboard/RaHPlateKeyboard/PlateKeyboard"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RaHPlateKeyboard: c3ce14dbae9e5c926306f167e13e94f6e537704c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 3630ef93d128ad3a42aa32a9de1b254b947ef23a
+
+COCOAPODS: 1.6.1
